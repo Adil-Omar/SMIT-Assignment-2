@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(233, 227, 227);
+        }
+    </style>
+</head>
+<body>
+    <center><h2 style="color: rgb(170, 26, 26);text-align: end;padding-right: 200px;"><u>Student's registration form</u></h2></center>
+    <form action="backend.php">
+        <br><label for="myName" style="padding-right: 90px;"><b>First  name:</b></label>
+        <input type="text" name="" id="myName" placeholder="Enter first name" style="font-size: large;" size="110">
+    <br>
+        <br><label for="myname" style="padding-right: 94px;"><b>Last  name:</b></label>
+        <input type="text" name="" id="myname" placeholder="Enter Last name" style="font-size: large;" size="110">
+    
+    <br>
+        <br><label for="myEmail" style="padding-right: 125px;"><b>Email:</b></label>
+        <input type="email" name="" id="myEmail" placeholder="Must contain @" pattern="@" required style="font-size: large;" size="110">
+    
+    <br>
+        <br><label for="myNumber" style="padding-right: 109px;"><b>Number:</b></label>
+        <input type="text" name="" id="myNumber" placeholder="12 numbers are allowed"  style="font-size: large;" size="110">
+    <br>
+        <br><b>Gender:</b><label for="Male" > &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; Male</label><input type="radio" name="myGender" id="Male"> <label for="Female">Female</label><input type="radio" id="Female" name="myGender">
+        <br>
+    <br><label for="myDate" style="padding-right: 79px;"><b>Date of birth:</b></label>
+    <input type="date" id="myDate" style="width: 1032PX;font-size: large;">
+    </form>
+        <br>
+    <br><label for="myAdress" style="padding-right: 120px;"><b>Adress:</b></label>
+    <textarea name="" id="myAdress" cols="113" placeholder="Enter your adress" rows="11" style="font-size: large;"></textarea>
+     <br>
+     <br><label for="myCity" style="padding-right: 137px;"><b>City:</b></label> 
+     <input type="text" name="" placeholder="Enter your city name" id="myCity" style="font-size: large;" size="110">    
+     <br>
+     <br><label for="myPin" style="padding-right: 133px;"><b>Area:</b></label> 
+     <input type="text" name="" placeholder="Enter your area pin" id="myCity" style="font-size: large;" size="110">    
+      <br>
+      <br><label for="myQual"style="padding-right: 77px;"><b>Qualification:</b></label>
+      <select name="" id="myQual"  style="font-size: large;width: 230px;">
+        <option value="" disabled selected>Select Qualification</option>
+        <option value="">Matric</option>
+        <option value="">Inter</option>
+        <option value="">Graduate</option>
+      </select>
+      <br>
+      <br><label for="mySpec" style="padding-right: 69px;"><b>Specialization:</b></label><label for="box">
+        <input type="checkbox" name="Computer Science" id="box" value="Computer Science">Computer Science</label><br>
+      <label for="box1" style="padding-left: 173px;">
+        <input type="checkbox" name="Computer Science1" id="box1" value="Computer Science" >Information Technology</label><br>
+      <label for="box2" style="padding-left: 173px;">
+        <input type="checkbox" name="Computer Science1" id="box2" value="Computer Science">Computer Architechture</label><br>
+      <label for="box3" style="padding-left: 173px;">
+        <input type="checkbox" name="Computer Science3" id="box3" value="Computer Science">Tele Communication</label><br>
+      <br>
+      <br><label for="mypass" style="padding-right: 102px;"><b>Password:</b></label>
+      <input type="password" name="" id="mypass" style="font-size: large;" size="110"  placeholder="Enter password">
+      <br>
+      <br><button style="font-size: larger;border-radius: 5px;background-color: rgb(48, 155, 54);padding-left: 20px;padding-right: 20px ;color: aliceblue;">Register</button>
+    </form>
+    <br>
+    <hr>
+    <center><a href="index.html"><h2>Table</h2></a></center>
+</body>
+</html>
